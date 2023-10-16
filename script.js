@@ -9,6 +9,8 @@ title.innerText = "Potato";
 let start = document.querySelector('article a');
 start.innerHTML = "Start";
 
+let mail = document.getElementsByTagName('a')[5];
+mail.innerText = 'Mail Us';
 /* 4)  document.getElementById('mailus').innerHTML = "Mail Us";*/
 
 let text = document.querySelector('.art-2 p');
@@ -20,7 +22,10 @@ knapp.style.backgroundColor = "green";
 let hoodie = document.querySelector('.art-1 figure');
 hoodie.style.backgroundColor = "lightblue";
 
-document.getElementById('address').innerText = 'Stockholmsvägen 99';
+
+let adres = document.getElementsByTagName('p')[3];
+adres.innerText = 'Stockholmsvägen 99';
+
 
 let main = document.querySelectorAll('p');
 for (let i = 0; i < main.length; i++) {
