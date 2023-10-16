@@ -1,18 +1,24 @@
 /*Code here! 
+1) document.getElementById("title").innerText = "Potato";
 
 */
 
-document.getElementById("title").innerText = "Potato";
+let title = document.querySelector('.art-1 h3');
+title.innerText = "Potato";
 
-document.getElementById('start').innerHTML = "Start";
+let start = document.querySelector('article a');
+start.innerHTML = "Start";
 
-document.getElementById('mailus').innerHTML = "Mail Us";
+/* 4)  document.getElementById('mailus').innerHTML = "Mail Us";*/
 
-document.getElementById('hoodie').innerText = "This hoodie is dope. Definitely worth buying!";
+let text = document.querySelector('.art-2 p');
+text.innerText = "This hoodie is dope. Definitely worth buying!";
 
-document.getElementById('btn').style.backgroundColor = "forestgreen";
+let knapp = document.querySelector('.art-2 button');
+knapp.style.backgroundColor = "green";
 
-document.getElementById('poster').style.backgroundColor = "lightblue";
+let hoodie = document.querySelector('.art-1 figure');
+hoodie.style.backgroundColor = "lightblue";
 
 document.getElementById('address').innerText = 'Stockholmsvägen 99';
 
@@ -25,3 +31,5 @@ let btn = document.querySelectorAll('button');
 for (let i = 0; i < btn.length; i++) {
   btn[i].innerHTML = "Add to cart";
 }
+
+/*document.getElementById('act').classList.add('Active');*/
